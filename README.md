@@ -54,7 +54,7 @@ If FFmpeg is missing, the app offers:
 ## Install
 
 ```powershell
-"d:/PROGRAMOVANI VYVOJ APLIKACI/Simple Video Splitter/.venv/Scripts/python.exe" -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 If you use the included virtual environment, install into that environment.
@@ -62,7 +62,7 @@ If you use the included virtual environment, install into that environment.
 ## Run
 
 ```powershell
-"d:/PROGRAMOVANI VYVOJ APLIKACI/Simple Video Splitter/.venv/Scripts/python.exe" main.py
+.\.venv\Scripts\python.exe main.py
 ```
 
 ## Usage
@@ -137,7 +137,7 @@ The app stores user configuration in AppData and currently remembers:
 ## Tests
 
 ```powershell
-"d:/PROGRAMOVANI VYVOJ APLIKACI/Simple Video Splitter/.venv/Scripts/python.exe" -m unittest discover -s Tests
+.\.venv\Scripts\python.exe -m unittest discover -s Tests
 ```
 
 Covered areas include:
